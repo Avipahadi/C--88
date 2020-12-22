@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>C88</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="fabric.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body onload="add();" class="body_background">
+
+	<center>
+
+		<h2 class="btn-primary">MINECRAFT</h2>
+
+		<div class="btn-danger" id="head_info">
+			<h3>Current Width = <span id="block_height">30</span></h3>
+			<h3>Current Height = <span id="block_width">30</span></h3>
+		</div>
+		<canvas id="myCanvas" height="800" width="1000"></canvas>
+		<br>
+		<button onclick="cont();" id="h_f_c" class="btn">Show Controls</button>
+		<br>
+		<div id="c" style="display: none;color: white;">
+		<p>S = Stone</p>
+		<p>Shift and G = Dirt</p>
+		<p>G = Glow Stone</p>
+		<p>D = Dark green grass</p>
+		<p>L = Light green grass</p>
+		<p>B = Brick</p>
+		<p>Y = Yellow brick</p>
+		<p>N = Netherrack</p>
+		<p>O = Oak log</p>
+		</div>
+		<br>
+		<br>
+	</center>
+	<script src="main.js"></script>
+</body>
+
+</html>
