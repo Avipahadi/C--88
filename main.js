@@ -22,8 +22,8 @@ function player_add() {
             top: player_y,
             left: player_x
         });
+        canvas.add(player_object);
     });
-    canvas.add(player_object);
 }
 
 function block_add(get_block) {
@@ -35,8 +35,8 @@ function block_add(get_block) {
             top: player_y,
             left: player_x
         });
+        canvas.add(player_object);
     });
-    canvas.add(block_object);
 }
 
 window.addEventListener("keydown", mykeydown);
